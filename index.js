@@ -3,3 +3,7 @@
     return driverName.toLowerCase() === name.toLowerCase()
   })
 }
+
+function fuzzyMatch() {
+
+}
