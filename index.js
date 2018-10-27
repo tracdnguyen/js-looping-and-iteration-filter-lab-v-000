@@ -10,3 +10,9 @@ function fuzzyMatch(drivers, subString) {
     return driverName.slice(0, stringList) === subString
   })
 }
+
+function matchName(drivers, name) {
+  return drivers.filter(driverName) {
+    return driverName === name
+  }
+}
