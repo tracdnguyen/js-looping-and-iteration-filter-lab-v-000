@@ -7,6 +7,6 @@
 function fuzzyMatch(drivers, subString) {
   let stringList = subString.length
   return drivers.filter(function(driverName) {
-    return driverName === subString
+    return driverName.slice(0, stringList) === subString
   })
 }
